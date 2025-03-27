@@ -12,9 +12,9 @@ load_dotenv()
 
 # Database connection parameters
 db_user = "root"
-db_password = quote_plus("Cosmo@2023*")
-db_host = "10.41.121.5"
-db_name = "cosmo"
+db_password = quote_plus("Xyz@2023*")
+db_host = "10.66.87.90"
+db_name = "xyz"
 
 # Initialize SQLDatabase
 db = SQLDatabase.from_uri(f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}", sample_rows_in_table_info=3)
